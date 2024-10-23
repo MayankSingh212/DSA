@@ -25,7 +25,7 @@ public class RearrangeArrayElementsBySign {
     }
 }
 
-//js brute force code if positve and negative is not equal revist
+//js code if positve and negative is not equal 
 // const rearrange = (arr)=>{
 //     const posi = [];
 //     const negative = [];
