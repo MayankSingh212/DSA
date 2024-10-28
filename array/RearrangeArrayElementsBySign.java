@@ -29,6 +29,7 @@ public class RearrangeArrayElementsBySign {
 // const rearrange = (arr)=>{
 //     const posi = [];
 //     const negative = [];
+//     const ans = [];
 //     for(let i=0;i<arr.length;i++){
 //         if(arr[i]<0){
 //             negative.push(arr[i]);
@@ -42,6 +43,27 @@ public class RearrangeArrayElementsBySign {
 //     let j =0;
 //     let x = 0;
 //     while(i<posi.length && j<negative.length){
+//           if(x%2 == 0){
+//             ans[x] = posi[i];
+//             x++;
+//             i++;
+//           }
+//           else{
+//             ans[x] = negative[j];
+//             x++;
+//             j++;
+//           }
+//       }
 
-//     }
-// }
+//       while(i<posi.length){
+//         ans[x] = posi[i];
+//         i++;
+//         x++;
+//       }
+
+//       while(j<negative.length){
+//         ans[x] = negative[j];
+//         j++;
+//         x++;
+//       }
+//    }
